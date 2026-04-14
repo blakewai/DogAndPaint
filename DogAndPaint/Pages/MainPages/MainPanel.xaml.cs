@@ -29,10 +29,6 @@ namespace DogAndPaint.Pages.MainPages
         private void MainPanelBT_Click(object sender, RoutedEventArgs e)
         {
 
-        }
-
-        private void Page_LayoutUpdated(object sender, EventArgs e)
-        {
-        }
+        }    
     }
 }

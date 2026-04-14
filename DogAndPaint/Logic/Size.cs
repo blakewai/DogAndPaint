@@ -27,6 +27,17 @@ namespace DogAndPaint.Logic
 
             return _cachedMainWindow.ActualHeight / speedsize;
         }
+        public static double TextSizeLogic(double speedsize, double maxsize)
+        {
+            UpdateCachedWindow();
+
+            if (_cachedMainWindow == null || speedsize <= 0)
+                return 0.0;
+            if (_cachedMainWindow.ActualHeight / speedsize < maxsize)
+                return maxsize;
+
+            return _cachedMainWindow.ActualHeight / speedsize;
+        }
 
         //------------------------------------------------------------------------------------------------------------------------------------
         //Size TextBox!!!!

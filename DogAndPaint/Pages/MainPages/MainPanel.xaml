@@ -6,31 +6,26 @@
       xmlns:local="clr-namespace:DogAndPaint.Pages.MainPages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="MainPanel" LayoutUpdated="Page_LayoutUpdated">
+      Title="MainPanel">
 
     <Grid>
         <StackPanel Orientation="Horizontal"
                     VerticalAlignment="Top"
-                    Height="40"
                     HorizontalAlignment="Center">
-            <Button Name="MainPanelBT" Click="MainPanelBT_Click"
-                    >
-                <Button.Template>
-                    <ControlTemplate TargetType="Button">
-                        <Border Cursor="Hand">
-                            <StackPanel Orientation="Horizontal">
-                                <Image Source="/Image/DogAndPaint.png" />
-                                <TextBlock Text="СОБАКА-И ТОЧКА"
-                                           FontSize="20"
-                                           FontWeight="ExtraBold"
-                                           Foreground="#205E45"
-                                           VerticalAlignment="Center"/>
-                            </StackPanel>
-                        </Border>
-                    </ControlTemplate>
-                </Button.Template>
+            <Button Name="MainPanelBT" Click="MainPanelBT_Click" Cursor="Hand" Background="{x:Null}" BorderThickness="0">
+                <StackPanel Orientation="Horizontal">
+                    <Image Name="LogoImage" 
+                           Source="/Image/DogAndPaint.png" 
+                           Height="40"/>
+                    <TextBlock Name="LogoTextBlock" 
+                               Text="СОБАКА-И ТОЧКА"
+                               FontSize="15"
+                               FontWeight="ExtraBold"
+                               Foreground="#205E45"
+                               VerticalAlignment="Center"/>
+                </StackPanel>
             </Button>
-            
+
         </StackPanel>
     </Grid>
 </Page>
