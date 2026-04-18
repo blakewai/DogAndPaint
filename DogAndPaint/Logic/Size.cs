@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Controls;
 
-namespace DogAndPaint.Logic
+namespace DogAndPoint.Logic
 {
     internal class Size
     {

@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DogAndPower.Pages.FrameMainPanel.Client
+namespace DogAndPoint.Pages.FrameMainPanel.Client
 {
     /// <summary>
     /// Логика взаимодействия для Menu.xaml

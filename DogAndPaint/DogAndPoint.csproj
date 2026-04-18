@@ -151,10 +151,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\DogAndPaint.png" />
+    <Resource Include="Image\DogAndPoint.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataFolder\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Back.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

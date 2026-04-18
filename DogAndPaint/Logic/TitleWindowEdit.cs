@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace DogAndPaint.Logic
+namespace DogAndPoint.Logic
 {
     internal class TitleWindowEdit
     {

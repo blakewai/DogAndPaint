@@ -1,9 +1,9 @@
-﻿<Page x:Class="DogAndPaint.Pages.MainPages.Authorization"
+﻿<Page x:Class="DogAndPoint.Pages.MainPages.Authorization"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:DogAndPaint.Pages.MainPages"
+      xmlns:local="clr-namespace:DogAndPoint.Pages.MainPages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Authorization" LayoutUpdated="Page_LayoutUpdated">
@@ -20,7 +20,7 @@
             <ColumnDefinition Width="150*"/>
         </Grid.ColumnDefinitions>
         <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2">
-            <Image Source="/Image/DogAndPaint.png" 
+            <Image Source="/Image/DogAndPoint.png" 
                    Height="40"
                    Name="LogoImage"/>
             <TextBlock Text="СОБАКА-И ТОЧКА"

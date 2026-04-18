@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DogAndPaint.Properties
+namespace DogAndPoint.Properties
 {
 
 

@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DogAndPaint.Pages.MainPages
+namespace DogAndPoint.Pages.MainPages
 {
     /// <summary>
     /// Логика взаимодействия для Authorization.xaml
@@ -23,6 +23,7 @@ namespace DogAndPaint.Pages.MainPages
         public Authorization()
         {
             InitializeComponent();
+            Logic.TitleWindowEdit.Title("Авторизация");
         }
 
         private void AuthorizationBT_Click(object sender, RoutedEventArgs e)

@@ -5,30 +5,38 @@ using System.Text;
 using Octokit;
 using System.Threading.Tasks;
 
-namespace DogAndPower.Logic
+namespace DogAndPoint.Logic
 {
     internal class GitHubInfo
     {
-        public static async Task<MyInfo> GitHubInformation()
+        public static async Task<(string Name, string Version)> GitHubInformation()
         {
-            var client = new GitHubClient(new ProductHeaderValue("DogAndPaintApp"));
+            var client = new GitHubClient(new ProductHeaderValue("DogAndPoint"));
+            string owner = "blakewai";
+            string reponame = "DogAndPoint";
 
-            // 1. Получаем инфо о репозитории (это должно работать всегда)
-            var repo = await client.Repository.Get("blakewai", "DogAndPaint");
-
-            string version = "0.0.0";
             try
             {
-                // 2. Пытаемся получить релиз. Если его нет — просто идем дальше
-                var latest = await client.Repository.Release.GetLatest("blakewai", "DogAndPaint");
-                version = latest.TagName;
-            }
-            catch (NotFoundException)
-            {
-                version = "Бета (нет релизов)";
-            }
+                var repo = await client.Repository.Get(owner, reponame);
 
-            return new MyInfo { Name = repo.Name, Version = version };
+                string version = "v0.0.0";
+                try
+                {
+                    var reliserepo = await client.Repository.Release.GetLatest(owner, reponame);
+                    version = reliserepo.TagName;
+                }
+                catch (NotFoundException)
+                {
+                    version = "Нет активных релизов";
+                }
+
+                return (repo.Name, version);
+            }
+            catch (Exception)
+            {
+                return ("Ошибка доступа", "---");
+            }
         }
+
     }
 }

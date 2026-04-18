@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DogAndPaint
+namespace DogAndPoint
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
@@ -24,7 +24,6 @@ namespace DogAndPaint
         {
             InitializeComponent();
 
-            Logic.TitleWindowEdit.Title("Авторизация");
             MainFrame.Navigate(new Uri("Pages/MainPages/Authorization.xaml", UriKind.RelativeOrAbsolute));
         }
     }
