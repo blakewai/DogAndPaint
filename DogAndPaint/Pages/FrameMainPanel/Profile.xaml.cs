@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DogAndPaint;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,35 @@ namespace DogAndPower.Pages.FrameMainPanel
         public Profile()
         {
             InitializeComponent();
+        }
+
+        private void DataUserBT_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void CityTB_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void HistoryTB_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void HelpTB_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void AboutAplocationTB_Click(object sender, RoutedEventArgs e)
+        {
+            var windowsframe = Application.Current.MainWindow as MainWindow;
+            if (windowsframe != null)
+            {
+                windowsframe.MainFrame.Navigate(new Uri("Pages\\PagesProfiles\\AboutAplocation.xaml", UriKind.RelativeOrAbsolute));
+            }
         }
     }
 }

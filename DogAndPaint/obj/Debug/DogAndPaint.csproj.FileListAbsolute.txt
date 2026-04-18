@@ -41,3 +41,12 @@ C:\Users\blake\source\repos\DogAndPaint\DogAndPaint\obj\Debug\Pages\FrameMainPan
 C:\Users\blake\source\repos\DogAndPaint\DogAndPaint\obj\Debug\Pages\FrameMainPanel\Client\Menu.baml
 C:\Users\blake\source\repos\DogAndPaint\DogAndPaint\obj\Debug\Pages\FrameMainPanel\Client\MainPagePanel.g.cs
 C:\Users\blake\source\repos\DogAndPaint\DogAndPaint\obj\Debug\Pages\FrameMainPanel\Client\MainPagePanel.baml
+C:\Users\blake\source\repos\DogAndPaint\DogAndPaint\obj\Debug\Pages\FrameMainPanel\Address.g.cs
+C:\Users\blake\source\repos\DogAndPaint\DogAndPaint\obj\Debug\Pages\FrameMainPanel\Profile.g.cs
+C:\Users\blake\source\repos\DogAndPaint\DogAndPaint\obj\Debug\Pages\FrameMainPanel\Address.baml
+C:\Users\blake\source\repos\DogAndPaint\DogAndPaint\obj\Debug\Pages\FrameMainPanel\Profile.baml
+C:\Users\blake\source\repos\DogAndPaint\DogAndPaint\bin\Debug\Octokit.dll
+C:\Users\blake\source\repos\DogAndPaint\DogAndPaint\bin\Debug\Octokit.xml
+C:\Users\blake\source\repos\DogAndPaint\DogAndPaint\obj\Debug\Pages\PagesProfiles\AboutAplocation.g.cs
+C:\Users\blake\source\repos\DogAndPaint\DogAndPaint\obj\Debug\Pages\PagesProfiles\AboutAplocation.baml
+C:\Users\blake\source\repos\DogAndPaint\DogAndPaint\obj\Debug\DogAndPa.3AC87565.Up2Date

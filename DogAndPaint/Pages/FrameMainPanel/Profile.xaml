@@ -9,6 +9,31 @@
       Title="Profile">
 
     <Grid>
-        
+        <StackPanel>
+            <TextBlock Name="YourNameTextBlock" 
+                       Text="YourName"
+                       FontWeight="ExtraBold"
+                       FontSize="30"
+                       Margin="0,0,0,20"/>
+
+            <Border Background="#FFB5B5B5" 
+                    Margin="0,10"
+                    CornerRadius="15">
+                <StackPanel>
+                    <Button Name="DataUserBT" Style="{StaticResource SettingsBT}" Content="Мои данные" Click="DataUserBT_Click"/>
+                    <Button Name="CityTB" Style="{StaticResource SettingsBT}" Content="Город" Click="CityTB_Click"/>
+                    <Button Name="HistoryTB" Style="{StaticResource SettingsBT}" Content="История заказов" Click="HistoryTB_Click"/>
+                </StackPanel>
+            </Border>
+
+            <Border Background="#FFB5B5B5" 
+                    Margin="0,10"
+                    CornerRadius="15">
+                <StackPanel>
+                    <Button Name="HelpTB" Style="{StaticResource SettingsBT}" Content="Нужна помощь" Click="HelpTB_Click"/>
+                    <Button Name="AboutAplocationTB" Style="{StaticResource SettingsBT}" Content="О приложении" Click="AboutAplocationTB_Click"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
     </Grid>
 </Page>

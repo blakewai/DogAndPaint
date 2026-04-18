@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\blake\source\repos\DogAndPaint\DogAndPaint\App.xaml
-7368651621
+88310544
 
-14-1473118307
-13-38814620
-MainWindow.xaml;Pages\FrameMainPanel\Address.xaml;Pages\FrameMainPanel\Client\MainPagePanel.xaml;Pages\FrameMainPanel\Client\Menu.xaml;Pages\FrameMainPanel\Profile.xaml;Pages\MainPages\Authorization.xaml;Pages\MainPages\MainPanel.xaml;
+162003359285
+152056644577
+MainWindow.xaml;Pages\FrameMainPanel\Address.xaml;Pages\FrameMainPanel\Client\MainPagePanel.xaml;Pages\FrameMainPanel\Client\Menu.xaml;Pages\FrameMainPanel\Profile.xaml;Pages\MainPages\Authorization.xaml;Pages\MainPages\MainPanel.xaml;Pages\PagesProfiles\AboutAplocation.xaml;
 
-True
+False
 
