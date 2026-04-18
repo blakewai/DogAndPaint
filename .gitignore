@@ -2,60 +2,48 @@ bin/
 obj/
 out/
 
-# Папка с настройками Visual Studio
 .vs/
 
-# Файлы пользовательских настроек
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 
-# Временные файлы
 *.cache
 *.tmp
 *.temp
 *.log
 
-# Файлы отладки
 *.pdb
 *.ilk
 *.idb
 
-# Папка с результатами тестов
 TestResults/
 *.coverage
 *.coverage.xml
 
-# Системные файлы
 Thumbs.db
 *.DS_Store
 Desktop.ini
 
-# Файлы производительности
 *.psess
 *.vsp
 *.vspx
 *.sap
 
-# Файлы резервных копий
 *~
 *.bak
 *.backup
 
-# Локальные настройки публикации
 *.pubxml.user
 
-# Файлы обновления проектов
 _UpgradeReport_Files/
 Backup*/
 UpgradeLog*.htm
 
-# Файлы шифрования
 *.pfx
 *.snk
 *.crt
 
-# Rider IDE (если кто-то использует)
 .idea/
 *.DotSettings.user
